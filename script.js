@@ -38,3 +38,15 @@ function displayResults(weather){
 
 }
 
+function dateBuilder(d) {
+    let months = ["de Janeiro", "de Fevereiro", "de Março", "de Abril", "de Maio", "de Junho",
+    "Julho", "de Agosto", "de Setembro", "de Outubro", "de Novembro", "de Dezembro"];
+    let days = ["Domingo, ","Segunda-Feira, ","Terça-Feira, ","Quarta-Feira, ","Quinta-Feira, ","Sexta-Feira, ","Sábado, "];
+
+    let day = days[d.getDay()];
+    let date = d.getDate();
+    let month = months[d.getMonth()];
+    let year = d.getFullYear();
+
+    return `${day} ${date} ${month} ${year}`
+}
