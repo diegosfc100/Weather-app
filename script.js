@@ -30,4 +30,7 @@ function displayResults(weather){
     let temp = document.querySelector('.current .temp');
     temp.innerText = `${Math.round(weather.main.temp)}°c`;
 
+    let hilow = document.querySelector('.hi-low');
+    hilow.innerHTML = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
+
 }
