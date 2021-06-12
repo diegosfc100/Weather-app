@@ -27,4 +27,7 @@ function displayResults(weather){
     let date = document.querySelector('.location .date');
     date.innerText = dateBuilder(now);
 
+    let temp = document.querySelector('.current .temp');
+    temp.innerText = `${Math.round(weather.main.temp)}°c`;
+
 }
