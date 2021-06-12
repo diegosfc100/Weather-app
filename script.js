@@ -10,3 +10,10 @@ function setQuery (event) {
     (event.keyCode ==13) && getResults(searchbox.value);
     //(event.keyCode ==13) && console.log(searchbox.value);
 }
+
+function getResults(query){
+    fetch(`${api.url}weather?q=${query}&units=metric&APPID=${api.key}`)
+    .then(weather => {
+        return weather.json();
+    }).then(displayResults);
+}
