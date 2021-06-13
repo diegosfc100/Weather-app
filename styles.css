@@ -18,11 +18,25 @@
   box-sizing: border-box;
 }
 
+/* body {
+    font-family: 'montserrat', sans-serif;
+    background-image: url(/image/front.jpg);
+    background-position: top center; 
+} */
 body {
     font-family: 'montserrat', sans-serif;
-    background-image: url('https://i.pinimg.com/originals/7e/fb/1e/7efb1e6d25184aac0998fb966732325d.jpg');
-    background-position: top center; 
-}
+    min-height: 100vh;
+    margin: 0 15px;
+    position: relative; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('/image/front.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    }
 
 .container {
     display:flex;
@@ -43,7 +57,7 @@ header input{
     padding: 10px 15px;
     border: none;
     outline: none;
-    background-color:rgba(255,255,255,0.3);
+    background-color:white;
     border-radius: 16px 0px 16px 0px;
     color:#313131;
     font-size: 20px;
