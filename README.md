@@ -14,7 +14,7 @@
 - API OpenWeatherMap
 
 ## Project
-This is a simple weather app that consumes the OpenWeatherMap API
+This is a simple weather app, made with Javascript that consumes the OpenWeatherMap API
 ## Run
 Just open the [index.html](index.html) in any web browser.
 
