@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-    <img alt="weather_app" title="weather_app" src="/image/app_readme.jpg" />
+    <img alt="weather_app" title="weather_app" src="/image/counter.gif" />
 </h1>
 <br>
 
